@@ -11,16 +11,18 @@ image: /images/home/paper_natEcoEvol2020.jpg
   </a>
 </p>
 
-<ul class="staff">
-  {% for person in site.attendees %}
-    <li>
-      <div class="square-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
-      <div class="name">
-        <a href="{{ person.website }}" target="_blank">{{ person.name }}</a>
-      </div>
-      <div class="position">{{ person.position }}</div>
-      <div class="position2">{{ person.position2 }}</div>
-      <div class="position3">{{ person.position3 }}</div>
-    </li>
-  {% endfor %}
-</ul>
+{% assign grouped_speakers = site.attendees | group_by: "category" %}
+{% for group in grouped_speakers %}
+  <h2 style="margin-top: 2rem;">{{ group.name }}</h2>
+  <ul class="staff">
+    {% for person in group.items %}
+      <li>
+        <div class="square-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
+        <div class="name">
+          <a href="{{ person.website }}" target="_blank">{{ person.name }}</a>
+        </div>
+        <div class="position">{{ person.position }}</div>
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
