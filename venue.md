@@ -3,8 +3,8 @@ layout: home
 title: Venue and Logistics
 description: How to get to the workshop.
 image: /new_imgs/Accademia.jpg
-event_dates: "29th Sep – 4th Oct, 2025"
-location: "Venice"
+event_dates: "12th – 18th of September, 2027"
+location: "San Servolo, Venice"
 registration_status: "Closed"
 contact_name: "Laura Padoan"
 contact_email: "laura.padoan@istitutoveneto.it"
@@ -33,7 +33,7 @@ flyer_pdf: "POSTER.pdf"
 </div>
 
 ## Venue
-The School will take place in the historical Portego Room of Palazzo Cavalli-Franchetti, one of the two landmark buildings of the Istituto Veneto di Scienze, Lettere ed Arti. Palazzo Franchetti is located near the Ponte dell’Accademia bridge on the opposite side of the Canal Grande from the Accademia Galleries and Accademia vaporetto (water bus) station. Directions to Accademia or Ponte dell'Accademia are scattered throughout the city. If you get lost, ask for Accademia, but then remember to cross the bridge for Palazzo Franchetti. The Room of the School is located on the ground floor with full accessibility. 
+The school will take place at Venice International University on the beautiful San Servolo Island. The venue offers participants the possibility to live together on the VIU Campus, creating more opportunities for interaction among the participants, sharing time at dinners and during the whole day, and offering a variety of cultural activities.
 
 For further information about accessibility contact [Laura Padoan](mailto:laura.padoan@istitutoveneto.it).
 
@@ -41,7 +41,7 @@ Here are some suggested links to restaurants, food stores, and the venues on Goo
 [🍽️ Restaurants & Food Stores](https://maps.app.goo.gl/J8oAzhtdqSFxFEeVA) | [📍 Venues](https://maps.app.goo.gl/i3WXxVDng3KfV5bKA)
 
 <div class="image">
-    <img width="512" alt="Palazzo Franchetti" src="/images/palazzo_franchetti.jpg">
+    <!-- Placeholder for VIU image -->
 </div>
 
 ## Transports
