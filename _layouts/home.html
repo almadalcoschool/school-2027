@@ -1,0 +1,82 @@
+---
+layout: default
+---
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* CSS Reset */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .main-content { margin-right: 230px; }
+        .hero-title { font-size: clamp(1.5rem, 4vw + 1rem, 2.5rem); margin-bottom: 20px; white-space: normal; line-height: 1.2; max-width: 90%; overflow-wrap: break-word; }
+        .text, .hero-text-container, .hero-title, .subtext, .container.flex { text-align: flex-start; }
+        .fixed-box { position: fixed; bottom: 0px; right: 0; width: 230px; background-color: rgba(255, 255, 255, 0.8); padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); z-index: 1000; font-size: 20px; }
+        .hero { background-image: url('{{ site.baseurl }}{{ page.image }}'); background-size: cover; background-position: center; height: 70vh; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; position: relative; }
+        .grid { display: flex; flex-wrap: wrap; justify-content: flex-start; gap: 10px; max-width: 100%; overflow: hidden; margin-left: 8px; }
+        .grid img { height: 100px; max-width: 200px; object-fit: contain; }
+        .text { margin-bottom: 40px; }
+        .background-label { position: relative; bottom: 0px; right: 0px; background-color: rgba(0,0,0,0); color: #b9b9b9; padding: 5px 15px; font-size: 0.9rem; border-radius: 4px; z-index: 10; text-align: center; }
+        @media (max-width: 768px) {
+            .main-content { margin-right: 0; }
+            .fixed-box { display: none; }
+            .hero { height: 40vh; background-position: center; background-size: cover; }
+            .hero-title { text-align: left; font-size: 1.8em !important; max-width: 100% !important; line-height: 1.3; padding: 10px 15px; overflow-wrap: break-word !important; }
+            .subtext { font-size: 14px; text-align: left; overflow-wrap: break-word; }
+            .hero-text-container { padding: 20px 15px; }
+            .heading-landing, .heading-landing-home { padding: 25px; max-width: 90%; word-wrap: break-word; margin-left: 5px; }
+            .grid img { height: 80px; width: auto; }
+            .inner-hero, .text-container, .hero-text-container, .heading-landing-home { padding: 10px 15px; max-width: 95%; }
+        }
+        .hero a, .heading-landing-home a, .subtext a { color: white; text-decoration: underline; }
+        .hero a:hover, .heading-landing-home a:hover, .subtext a:hover { color: #f0f0f0; }
+        /* Markdown generated styles */
+        .text h2 { margin-top: 2rem; margin-bottom: 1rem; color: #333; }
+        .text h3 { margin-bottom: 1rem; font-weight: normal; color: #555; }
+        .text p { margin-bottom: 1rem; line-height: 1.6; }
+    </style>
+</head>
+
+<div class="fixed-box">
+    <strong>Date:</strong> {{ page.event_dates }}<br>
+    <strong>Location:</strong> {{ page.location }}<br>
+    <strong>Registration:</strong> {{ page.registration_status }}<br>
+    <strong style="color: black;">Contacts:</strong> <a href="mailto:{{ page.contact_email }}" style="color: black;">{{ page.contact_name }}</a>, <a href="{{ page.contact_phone_link }}" style="color: black;">{{ page.contact_phone }}</a><br>
+    <a href="{{ site.baseurl }}/{{ page.flyer_pdf }}" download="POSTER.pdf" style="color: black;"><strong style="color: black;">ADC school's flyer</strong></a><br>
+</div>
+
+<section class="hero">
+    <div class="inner-hero text-container">
+        <div class="hero-text-container">
+            <div class="heading-landing-home">
+                <h1 class="hero-title">
+                    Alma Dal Co School <br>
+                    on Collective Behaviour
+                </h1>
+                <p class="subtext editable bold-large-text">
+                    The Alma Dal Co School on Collective Behaviour 
+                    <a href="https://almadalcoschool.github.io/highlights/" target="_blank" rel="noopener noreferrer">was successfully held</a> 
+                    in Venice from September 29 to October 4 2025.
+                    <b>The second edition of the Alma Dal Co School will take place in Venice on September 2027.</b>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="background-label">Photo by Alma Dal Co, Nat Ecol Evol 2020</div>
+</section>
+
+<div class="main-content">
+    <section class="info" id="learn-more">  
+        <div class="container flex">
+            <div class="text">
+                {{ content }}
+            </div>
+        </div>
+        
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 6rem; width: 100%; margin-bottom: 2rem;">
+            <a href="https://almadalcofondazione.org/" target="_blank"><img src="https://raw.githubusercontent.com/almadalcoschool/almadalcoschool.github.io/main/images/almadalco.jpg" alt="almadalco" style="height: 100px; width: auto;"></a>
+            <a href="https://www.istitutoveneto.it/" target="_blank"><img src="https://raw.githubusercontent.com/almadalcoschool/almadalcoschool.github.io/main/images/istitutoveneto.jpg" alt="istitutoveneto" style="height: 100px; width: auto;"></a>
+            <a href="http://www.dfa.unipd.it/" target="_blank"><img src="https://raw.githubusercontent.com/almadalcoschool/almadalcoschool.github.io/main/images/logoDFA.png" alt="DFA" style="height: 100px; width: auto;"></a>
+            <a href="https://www.unil.ch/dbc/en/home.html" target="_blank"><img src="https://raw.githubusercontent.com/almadalcoschool/almadalcoschool.github.io/main/images/logo_dep_bio_comp.jpeg" alt="unil" style="height: 110px; width: auto;"></a>
+            <a href="https://www.ictp.it/" target="_blank"><img src="https://raw.githubusercontent.com/almadalcoschool/almadalcoschool.github.io/main/images/ictp.png" alt="ictp" style="height: 100px; width: auto;"></a>
+        </div>
+    </section> 
+</div>
