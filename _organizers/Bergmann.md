@@ -1,6 +1,6 @@
 ---
 name: Sven Bergmann
 position: UNIL, Lausanne, CHE
-role: Scientific Committee
+role: Chairperson
 website: "https://www.sib.swiss/sven-bergmann-group"
 ---
