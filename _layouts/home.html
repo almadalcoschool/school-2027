@@ -47,13 +47,19 @@ layout: default
     <div class="inner-hero text-container">
         <div class="hero-text-container">
             <div class="heading-landing-home">
-                <h1 class="hero-title">
-                    Alma Dal Co School <br>
-                    on Pattern Formation in Biological Systems Across Scales
-                </h1>
-                <p class="subtext editable bold-large-text">
-                    The second edition of the Alma Dal Co School will take place at Venice International University (VIU) from September 12-18, 2027.
-                </p>
+                {% if page.url == '/' or page.url == '/index.html' %}
+                    <h1 class="hero-title">
+                        Alma Dal Co School <br>
+                        on Pattern Formation in Biological Systems Across Scales
+                    </h1>
+                    <p class="subtext editable bold-large-text">
+                        The second edition of the Alma Dal Co School will take place at Venice International University (VIU) from September 12-18, 2027.
+                    </p>
+                {% else %}
+                    <h1 class="hero-title">
+                        {{ page.title }}
+                    </h1>
+                {% endif %}
             </div>
         </div>
     </div>
