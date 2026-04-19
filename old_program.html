@@ -158,11 +158,11 @@ image: /images/home/paper_natEcoEvol2020.jpg
 <body>
 
 <div class="fixed-box">
-    <strong>Date:</strong> 29th Sep – 4th Oct, 2025<br>
-	<strong>Location:</strong> Venice<br>
-    <strong>Registration:</strong> Closed <br>
-	<strong style="color: black;">Contacts:</strong> <a href="mailto:laura.padoan@istitutoveneto.it" style="color: black;">Laura Padoan</a>,<a href="tel:+390412407711" style="color: black;">+39 0412407711</a><br>
-	<a href="/POSTER.pdf" download="POSTER.pdf" style="color: black;"><strong style="color: black;">ADC school's flyer</strong></a><br>
+    <strong>Date:</strong> {{ site.event_dates }}<br>
+    <strong>Location:</strong> {{ site.location }}<br>
+    <strong>Registration:</strong> {{ site.registration_status }}<br>
+    <strong style="color: black;">Contacts:</strong> <a href="mailto:{{ site.contact_email }}" style="color: black;">{{ site.contact_name }}</a>, <a href="{{ site.contact_phone_link }}" style="color: black;">{{ site.contact_phone }}</a><br>
+    <a href="{{ site.baseurl }}/{{ site.flyer_pdf }}" download="POSTER.pdf" style="color: black;"><strong style="color: black;">ADC school's flyer</strong></a><br>
 </div>
 
 
