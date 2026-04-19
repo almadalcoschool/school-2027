@@ -12,5 +12,5 @@ Alma grew up in Venice, and as a child, she enjoyed the freedom and independence
 For further information, please visit the [Alma Dal Co Foundation](https://almadalcofondazione.org/).
 
 <div style="text-align: center; margin-top: 2rem;">
-    <img width="512" alt="Alma Dal Co" src="/images/alma.jpg" style="border-radius: 8px;">
+    <img width="512" alt="Alma Dal Co" src="{{ site.baseurl }}/images/alma.jpg" style="border-radius: 8px;">
 </div>

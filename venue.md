@@ -58,9 +58,7 @@ ATVO buses to Piazzale Roma. The service runs from 7.45 am to 10.30 pm and takes
 **Arriving by car**
 You will have to pay for a garage/parking space. Last points in Venice: "Piazzale Roma" (Municipal Garage € 24 - € 29 for 24h, Garage San Marco € 30) and "Tronchetto" (€ 21 for 24h). Alternatively, park in front of Mestre train station (€ 5 - € 9 per day) and take a train/bus to Piazzale Roma.
 
-<div class="image" style="margin-top: 2rem;">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d411.89212710684814!2d12.329627720353487!3d45.43218262164653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477eb1d1e5863567%3A0x837878ccb9392500!2sPalazzo%20Cavalli-Franchetti!5e0!3m2!1snl!2sbe!4v1706652482922!5m2!1snl!2sbe" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>				
-</div>
+
 
 ## Moving in Venice
 
@@ -87,7 +85,7 @@ Posters can be printed in Venice for €7.00. Maximum size is A0. Send PDF by **
 Pick up starting Monday September 29th, from 7.45 AM to 7pm at Dorsoduro 1076 in Cartoleria San Trovaso, Accademia area.
 
 <div class="image">
-    <img width="512" alt="Cartoleria San Trovaso" src="/images/cartoleria_san_trovaso_path.png">
+    <img width="512" alt="Cartoleria San Trovaso" src="{{ site.baseurl }}/images/cartoleria_san_trovaso_path.png">
 </div>
 
 ## Accommodation
