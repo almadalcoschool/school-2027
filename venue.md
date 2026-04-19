@@ -3,14 +3,6 @@ layout: home
 title: Venue and Logistics
 description: How to get to the workshop.
 image: /new_imgs/Accademia.jpg
-event_dates: "12th – 18th of September, 2027"
-location: "San Servolo, Venice"
-registration_status: "Closed"
-contact_name: "Laura Padoan"
-contact_email: "laura.padoan@istitutoveneto.it"
-contact_phone: "+39 0412407711"
-contact_phone_link: "tel:+390412407711"
-flyer_pdf: "POSTER.pdf"
 ---
 
 <style>

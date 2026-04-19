@@ -10,7 +10,7 @@ layout: default
         .hero-title { font-size: clamp(1.5rem, 4vw + 1rem, 2.5rem); margin-bottom: 20px; white-space: normal; line-height: 1.2; max-width: 90%; overflow-wrap: break-word; }
         .text, .hero-text-container, .hero-title, .subtext, .container.flex { text-align: flex-start; }
         .fixed-box { position: fixed; bottom: 0px; right: 0; width: 230px; background-color: rgba(255, 255, 255, 0.8); padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); z-index: 1000; font-size: 20px; }
-        .hero { background-image: url('{{ site.baseurl }}{{ page.image }}'); background-size: cover; background-position: center; height: 70vh; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; position: relative; }
+        .hero { background-image: url('{{ site.baseurl }}{{ page.image | default: site.image }}'); background-size: cover; background-position: center; height: 70vh; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; position: relative; }
         .grid { display: flex; flex-wrap: wrap; justify-content: flex-start; gap: 10px; max-width: 100%; overflow: hidden; margin-left: 8px; }
         .grid img { height: 100px; max-width: 200px; object-fit: contain; }
         .text { margin-bottom: 40px; }
@@ -36,11 +36,11 @@ layout: default
 </head>
 
 <div class="fixed-box">
-    <strong>Date:</strong> {{ page.event_dates }}<br>
-    <strong>Location:</strong> {{ page.location }}<br>
-    <strong>Registration:</strong> {{ page.registration_status }}<br>
-    <strong style="color: black;">Contacts:</strong> <a href="mailto:{{ page.contact_email }}" style="color: black;">{{ page.contact_name }}</a>, <a href="{{ page.contact_phone_link }}" style="color: black;">{{ page.contact_phone }}</a><br>
-    <a href="{{ site.baseurl }}/{{ page.flyer_pdf }}" download="POSTER.pdf" style="color: black;"><strong style="color: black;">ADC school's flyer</strong></a><br>
+    <strong>Date:</strong> {{ site.event_dates }}<br>
+    <strong>Location:</strong> {{ site.location }}<br>
+    <strong>Registration:</strong> {{ site.registration_status }}<br>
+    <strong style="color: black;">Contacts:</strong> <a href="mailto:{{ site.contact_email }}" style="color: black;">{{ site.contact_name }}</a>, <a href="{{ site.contact_phone_link }}" style="color: black;">{{ site.contact_phone }}</a><br>
+    <a href="{{ site.baseurl }}/{{ site.flyer_pdf }}" download="POSTER.pdf" style="color: black;"><strong style="color: black;">ADC school's flyer</strong></a><br>
 </div>
 
 <section class="hero">
