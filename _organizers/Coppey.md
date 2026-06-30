@@ -1,5 +1,5 @@
 ---
 name: Mathieu Coppey
 position: CNRS, FRA
-role: Chairperson (Co-chair)
+role: Chairperson (Co-chair), Webmasters
 ---
