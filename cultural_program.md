@@ -2,7 +2,7 @@
 layout: home
 title: Cultural Events
 description: Cultural program info.
-image: /images/pictures_gallery/conservatorio.jpeg
+image: /images/pictures_gallery/culturaleventbanner.jpg
 ---
 
 ## Cultural Events

@@ -2,7 +2,7 @@
 layout: home
 title: Invited Speakers
 description: Invited speakers
-image: /images/home/paper_natEcoEvol2020.jpg
+image: /images/home/paper_natEcoEvol2020_highres.jpg
 ---
 
 <style>

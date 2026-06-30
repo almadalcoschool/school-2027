@@ -2,7 +2,7 @@
 layout: home
 title: Registration
 description: Registration to the workshop.
-image: /images/home/paper_natEcoEvol2020.jpg
+image: /images/home/paper_natEcoEvol2020_highres.jpg
 ---
 
 ## Registration is closed

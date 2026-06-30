@@ -17,7 +17,3 @@ image: /images/pictures_gallery/161212-NorthAmerica-120127-scaled.jpg
     <img alt="Alma al microscopio" src="{{ site.baseurl }}/images/pictures_gallery/alma-al-microscopio-cut.jpg" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
   </div>
 </div>
-
-<div style="text-align: center; margin-top: 4rem;">
-    <img width="512" alt="Alma Dal Co" src="{{ site.baseurl }}/images/alma.jpg" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-</div>

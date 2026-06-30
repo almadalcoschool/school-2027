@@ -2,7 +2,7 @@
 layout: home
 title: Home
 description: Alma Dal Co School On Pattern Formation in Biological Systems Across Scales
-image: /images/home/paper_natEcoEvol2020.jpg
+image: /images/home/paper_natEcoEvol2020_highres.jpg
 ---
 
 ## Overview

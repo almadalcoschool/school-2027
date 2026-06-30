@@ -2,7 +2,7 @@
 layout: home
 title: Organizers
 description: Organizers.
-image: /images/home/paper_natEcoEvol2020.jpg
+image: /images/home/paper_natEcoEvol2020_highres.jpg
 ---
 
 <p class="editor-link">

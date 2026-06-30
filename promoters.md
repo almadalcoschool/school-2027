@@ -2,7 +2,7 @@
 layout: home
 title: Promoters
 description: Promoters
-image: /images/home/paper_natEcoEvol2020.jpg
+image: /images/home/paper_natEcoEvol2020_highres.jpg
 ---
 
 ## Promoters
