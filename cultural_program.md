@@ -2,7 +2,7 @@
 layout: home
 title: Cultural Events
 description: Cultural program info.
-image: /images/home/paper_natEcoEvol2020.jpg
+image: /images/pictures_gallery/conservatorio.jpeg
 ---
 
 ## Cultural Events

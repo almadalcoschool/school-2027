@@ -7,7 +7,7 @@ image: /images/home/paper_natEcoEvol2020.jpg
 
 ## Overview
 
-### An interdisciplinary meeting on pattern formation across biological systems.
+### **An interdisciplinary meeting on pattern formation across biological systems.**
 
 The Alma Dal Co School aims to inspire early career researchers to pursue groundbreaking research in the spirit of Alma Dal Co's passion for knowledge, innovation, and multidisciplinary research. 
 

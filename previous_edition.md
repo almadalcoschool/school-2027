@@ -2,7 +2,7 @@
 layout: home
 title: Previous Edition
 description: Summary of the 2025 Alma Dal Co School
-image: /images/home/paper_natEcoEvol2020.jpg
+image: /images/pictures_gallery/Alma Dal Co School 2025.jpeg
 ---
 
 ## The 2025 Alma Dal Co School on Collective Behaviour
