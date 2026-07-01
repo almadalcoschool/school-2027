@@ -18,30 +18,31 @@
 
 nav {
 	text-transform: uppercase;
-	font-size: .7em;
+	font-size: .8em;
 	width: 100%;
 	position: relative;
 	top: -7px;
 	text-shadow: none;
 
 	@media #{$mid-point} {
-		padding: 0 20px;
-		display: inline-block;
-		float: right;
+		padding: 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		align-items: center;
 		width: auto;
-		top: -2px;
-		text-align: right;
+		top: 0;
 	}
 
 
 	a {
-		margin: 0 1px;
-		padding: 14px 4px;
+		margin: 0 2px;
+		padding: 14px 6px;
 		border: 0;
 		display: none;
 
 		@media #{$mid-point} {
-			display: inline;
+			display: inline-block;
 			border-bottom: 1px solid rgba(255,255,255,0);
 			color: rgba(255,255,255,.8);
 		}

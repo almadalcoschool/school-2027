@@ -55,6 +55,13 @@ header {
 
 	.container {
 		line-height: 0;
+
+		@media #{$mid-point} {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			line-height: normal;
+		}
 	}
 
 	&.header-background {
