@@ -1,7 +1,7 @@
 ---
 name: Frank Jülicher
 position: MPI Dresden
-image_path: /images/attendees/Jülicher.jpg
+image_path: /images/attendees/Juelicher.jpg
 website: "https://www.pks.mpg.de/biological-physics/frank-juelicher"
 category: "Across Scales and Outside Perspectives on Pattern Formation"
 bio: |

@@ -46,7 +46,7 @@ section {
 
 header {
 	color: #fff;
-	padding: 15px 0;
+	padding: 0;
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
@@ -59,7 +59,7 @@ header {
 		@media #{$mid-point} {
 			display: flex;
 			justify-content: space-between;
-			align-items: center;
+			align-items: stretch;
 			line-height: normal;
 		}
 	}
@@ -117,6 +117,7 @@ header {
 	.company-name {
 		font-size: 1.7em;
 		display: inline-block;
+		padding: 15px 0;
 
 		img {
 			height: 30px;
