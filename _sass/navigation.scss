@@ -18,35 +18,27 @@
 
 nav {
 	text-transform: uppercase;
-	font-size: .8em;
+	font-size: .72em;
 	width: 100%;
 	position: relative;
 	top: -7px;
 	text-shadow: none;
 
 	@media #{$mid-point} {
-		padding: 0;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: flex-end;
-		align-items: stretch;
-		width: auto;
-		top: 0;
+		padding: 0 20px;
+		display: inline;
 	}
 
 
 	a {
-		margin: 0 2px;
-		padding: 14px 6px;
+		margin: 0 1px;
+		padding: 14px 4px;
 		border: 0;
 		display: none;
 
 		@media #{$mid-point} {
-			display: inline-flex;
-			align-items: center;
-			height: 100%;
-			padding: 0 6px;
-			border-bottom: 5px solid rgba(255,255,255,0);
+			display: inline;
+			border-bottom: 1px solid rgba(255,255,255,0);
 			color: rgba(255,255,255,.8);
 		}
 
