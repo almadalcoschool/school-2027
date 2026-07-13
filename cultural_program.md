@@ -12,7 +12,7 @@ at the **Conservatorio Music Hall**
 *Science and music event*
 
 <div style="text-align: center; margin: 1.5rem 0;">
-    <img alt="Conservatorio Logo" src="{{ site.baseurl }}/images/pictures_gallery/LOGO_Conseve_orizz_vettoriale-rosso.png" style="max-height: 80px; width: auto;">
+    <img alt="Conservatorio Logo" src="{{ site.baseurl }}/images/pictures_gallery/LOGO_Conseve_orizz_vettoriale-rosso.png" style="max-height: 160px; width: auto;">
 </div>
 
 <div style="text-align: center; margin-top: 2rem;">
