@@ -6,4 +6,6 @@ role:
     - Scientific Committee
     # - Local Organizing Committee
 website: "https://www.bio.ens.psl.eu/~demonte/"
+
+image_path: /images/organizers/silvia.jpg
 ---

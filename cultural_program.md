@@ -11,6 +11,10 @@ image: /images/pictures_gallery/culturaleventbanner.jpg
 at the **Conservatorio Music Hall**  
 *Science and music event*
 
+<div style="text-align: center; margin: 1.5rem 0;">
+    <img alt="Conservatorio Logo" src="{{ site.baseurl }}/images/pictures_gallery/LOGO_Conseve_orizz_vettoriale-rosso.png" style="max-height: 80px; width: auto;">
+</div>
+
 <div style="text-align: center; margin-top: 2rem;">
     <img width="600" alt="Conservatorio Music Hall" src="{{ site.baseurl }}/images/pictures_gallery/conservatorio.jpeg" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.15);">
 </div>

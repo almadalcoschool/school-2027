@@ -2,7 +2,7 @@
 layout: home
 title: Venue
 description: Venue information for the school.
-image: /images/pictures_gallery/VIU_foto frontale.jpg
+image: /images/pictures_gallery/san_servolo.jpg
 ---
 
 The School will take place at **Venice International University (VIU)**, located on the beautiful island of **San Servolo**, just a 10-minute boat ride from **Piazza San Marco**.
@@ -18,5 +18,5 @@ All participants and invited speakers will be accommodated at the **San Servolo 
 More information about the San Servolo Residential Centre is available here: [Hospitality Services](https://servizimetropolitani.ve.it/en/hospitality)
 
 <div style="text-align: center; margin-top: 2rem;">
-    <img width="600" alt="Venice International University" src="{{ site.baseurl }}/images/pictures_gallery/VIU_foto frontale.jpg" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.15);">
+    <img width="600" alt="Venice International University" src="{{ site.baseurl }}/images/pictures_gallery/san_servolo.jpg" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.15);">
 </div>

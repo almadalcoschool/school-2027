@@ -150,13 +150,14 @@ header {
 .heading-landing-home {
 	// display: inline-block; 
 	padding: 35px;	
-	background-color: #2c3435bb;
+	background-color: transparent;
 	border-radius: 25px;
 	// overflow-wrap: break-word;
 	max-width: 100%;
 	overflow: hidden; /* Nasconde eventuali contenuti che eccedono */
     text-overflow: ellipsis; 
     word-wrap: break-word;
+	text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
 }
 
 .heading-landing-home .hero-title {
