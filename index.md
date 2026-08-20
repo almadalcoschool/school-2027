@@ -28,6 +28,3 @@ Pattern formation involves different time scales. On short time scales, research
 The School on Pattern Formation perpetuates Alma Dal Co's open, bold, and generous approach to science, pursuing a twofold objective. First, young scientists will be exposed to exciting research on a particular topic, through different points of view and interdisciplinary expertise. Second, senior participants will have the opportunity to meet talented students and to hear about complementary approaches to their own research. The School is organised in a highly interactive format, to foster interactions across disciplines and career stages. Development of a shared language, and a common understanding of different approaches will be supported by introductory lectures given by world experts in pattern formation research. Ample time will be allocated to discussion and exchange of ideas among participants. Conversations will benefit particularly from the presence of all lecturers for the entire duration of the school. 
 
 [**ADC school's flyer**](POSTER.pdf)
-
-Here are some suggested links to restaurants, food stores, and the venues on Google Maps:
-[🍽️ Restaurants & Food Stores](https://maps.app.goo.gl/J8oAzhtdqSFxFEeVA) | [📍 Venues](https://maps.app.goo.gl/i3WXxVDng3KfV5bKA)

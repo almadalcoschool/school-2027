@@ -7,9 +7,11 @@ image: /images/pictures_gallery/culturaleventbanner.jpg
 
 ## Cultural Events
 
-**Thursday, September 16, at 5:30 pm**  
-at the **Conservatorio Music Hall**  
-*Science and music event*
+On Thursday, September 16th, 2026, the Alma Dal Co Foundation and the Benedetto Marcello Venice Conservatory will present, in the Sala Concerti of Palazzo Pisani, the public concert *Scienza e Musica*, with Judith Miné-Hattab, Alice Chance, the Venice Conservatory doctoral students Iacopo Caneva, Dario Michielon and Riccardo Schioppa, and the Cantori Veneziani Choir directed by Diana D'Alessio.
+
+During the Alma Dal Co School, the concert bridges science and music through original compositions inspired by scientific themes. The School will focus on the emergence of pattern formation in biological systems across scales — from single-molecule diffusion, phase transitions and cellular patterns to pattern formation in plants and the dynamic organization of animals. Drawing on these themes, the composers nourish their own creative practice while sparking the audience's curiosity about the science behind them.
+
+This public event will be open to the citizens of Venice and to participants in the School.
 
 <div style="text-align: center; margin: 1.5rem 0;">
     <img alt="Conservatorio Logo" src="{{ site.baseurl }}/images/pictures_gallery/LOGO_Conseve_orizz_vettoriale-rosso.png" style="max-height: 160px; width: auto;">
