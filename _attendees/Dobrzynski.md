@@ -1,4 +1,4 @@
-﻿---
+---
 name: Maciej Dobrzyński
 position: University of Bern
 image_path: /images/attendees/Dobrzynski.jpg
