@@ -5,8 +5,8 @@ left_links:
     link: /alma/
   - name: Speakers
     link: /speakers/
-  # - name: Registration
-  #   link: /registration/
+  - name: Registration
+    link: /registration/
   - name: Program
     link: /scientific_program/
   - name: Cultural Events

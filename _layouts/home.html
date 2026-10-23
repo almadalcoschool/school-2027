@@ -38,7 +38,7 @@ layout: default
 <div class="fixed-box">
     <strong>Date:</strong> {{ site.event_dates }}<br>
     <strong>Location:</strong> {{ site.location }}<br>
-    <strong>Registration:</strong> {{ site.registration_status }}<br>
+    <strong>Registration:</strong> <a href="{{ site.baseurl }}/registration/" style="color: black; text-decoration: underline;">{{ site.registration_status }}</a><br>
     <strong style="color: black;">Contacts:</strong> <a href="mailto:{{ site.contact_email }}" style="color: black;">{{ site.contact_name }}</a>, <a href="{{ site.contact_phone_link }}" style="color: black;">{{ site.contact_phone }}</a><br>
     <a href="{{ site.baseurl }}/{{ site.flyer_pdf }}" download="POSTER.pdf" style="color: black;"><strong style="color: black;">ADC school's flyer</strong></a><br>
 </div>
@@ -53,7 +53,7 @@ layout: default
                         on Pattern Formation in Biological Systems Across Scales
                     </h1>
                     <p class="subtext editable bold-large-text">
-                        The second edition of the Alma Dal Co School will take place at Venice International University (VIU) from September 12-18, 2027.
+                        The second edition of the Alma Dal Co School will take place at Venice International University (VIU) from September 12-17, 2027.
                     </p>
                 {% else %}
                     <h1 class="hero-title" {% if page.title == 'Venue' %}style="text-align: right;"{% endif %}>
@@ -75,11 +75,12 @@ layout: default
         </div>
         
         <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 2.5rem; width: 100%; margin-top: 2rem; margin-bottom: 2rem;">
-            <a href="https://almadalcofondazione.org/" target="_blank"><img src="https://raw.githubusercontent.com/almadalcoschool/almadalcoschool.github.io/main/images/almadalco.jpg" alt="almadalco" style="height: 55px; width: auto;"></a>
-            <a href="https://www.istitutoveneto.it/" target="_blank"><img src="https://raw.githubusercontent.com/almadalcoschool/almadalcoschool.github.io/main/images/istitutoveneto.jpg" alt="istitutoveneto" style="height: 55px; width: auto;"></a>
+            <a href="https://almadalcofondazione.org/" target="_blank"><img src="https://raw.githubusercontent.com/almadalcoschool/almadalcoschool.github.io/main/images/almadalco.jpg" alt="Fondazione Alma Dal Co" style="height: 55px; width: auto;"></a>
+            <a href="https://www.sib.swiss/" target="_blank"><img src="{{ site.baseurl }}/images/sib_logo2023.png" alt="SIB Swiss Institute of Bioinformatics" style="height: 55px; width: auto;"></a>
             <a href="http://www.dfa.unipd.it/" target="_blank"><img src="https://raw.githubusercontent.com/almadalcoschool/almadalcoschool.github.io/main/images/logoDFA.png" alt="DFA" style="height: 55px; width: auto;"></a>
-            <a href="https://www.unil.ch/dbc/en/home.html" target="_blank"><img src="https://raw.githubusercontent.com/almadalcoschool/almadalcoschool.github.io/main/images/logo_dep_bio_comp.jpeg" alt="unil" style="height: 55px; width: auto;"></a>
-            <a href="https://www.ictp.it/" target="_blank"><img src="https://raw.githubusercontent.com/almadalcoschool/almadalcoschool.github.io/main/images/ictp.png" alt="ictp" style="height: 55px; width: auto;"></a>
+            <a href="https://www.unil.ch/dbc/en/home.html" target="_blank"><img src="https://raw.githubusercontent.com/almadalcoschool/almadalcoschool.github.io/main/images/logo_dep_bio_comp.jpeg" alt="UNIL" style="height: 55px; width: auto;"></a>
+            <a href="https://www.ictp.it/" target="_blank"><img src="https://raw.githubusercontent.com/almadalcoschool/almadalcoschool.github.io/main/images/ictp.png" alt="ICTP" style="height: 55px; width: auto;"></a>
+            <a href="https://www.istitutoveneto.it/" target="_blank"><img src="https://raw.githubusercontent.com/almadalcoschool/almadalcoschool.github.io/main/images/istitutoveneto.jpg" alt="Istituto Veneto" style="height: 55px; width: auto;"></a>
         </div>
     </section> 
 </div>

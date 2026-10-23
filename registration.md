@@ -1,25 +1,28 @@
 ---
 layout: home
 title: Registration
-description: Registration to the workshop.
+description: Registration to the Alma Dal Co School 2027.
 image: /images/home/paper_natEcoEvol2020_highres.jpg
 ---
 
-## Registration is closed
+## Registration is now open!
 
-Applications vastly outnumbered the school capacity, and were of excellent quality. We regret we had to apply a stringent selection.<br>
-All candidates will be informed of the decision by an email by **20th April, 2025**.<br>
-Registration will be open until **2nd May, 2025**.<br>
-If your participation is confirmed, please register as soon as possible, as we have a long waiting list.
+Applications are now open for the **Alma Dal Co School on Pattern Formation in Biological Systems Across Scales**, taking place on the island of San Servolo in Venice, Italy, from **September 12th to 17th, 2027**.
 
-To REGISTER, please navigate to **[this page](https://www.istitutoveneto.it/AlmaDalCoSchool2025)** on the IVSLA website and proceed with the payment of the fee of 200 euros, which implies that your registration is completed.<br>
-On that page, please access the English version and select:
+### Application Form
+To apply and register, please fill out the online application form:  
+👉 **[Registration Form (Google Forms)](https://forms.gle/Ka2r93oEjcym7Se38)**
 
-*   **Payment in the absence of PagoPA notice**
-*   **Amministrazione** in the *Beneficiary Unit*
-*   **The Alma Dal Co School 2025** in the *Tribute code* box
+**Application Deadline:** **January 31st, 2027**
 
-Then follow the procedure.
+---
 
-We strongly recommend securing various bookings as soon as possible, as well.<br>
-Please visit the **[Venue & Logistics](https://almadalcoschool.github.io/venue/)** page for more information.
+### Fees & Accommodation
+The registration fee includes conference fees, all meals, and hosting on the Island of San Servolo for a total of **5 nights** (Check-in: **12 September 2027**, Check-out: **17 September 2027**):
+
+* **Single room:** 1,500 €
+* **Double room:** 1,150 €
+
+---
+
+For further logistical and travel details, please visit the [Venue]({{ site.baseurl }}/venue/) page. For any questions, please visit the [Contacts]({{ site.baseurl }}/contacts/) page.

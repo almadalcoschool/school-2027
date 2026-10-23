@@ -6,8 +6,8 @@
   link: /speakers/
 - name: Venue
   link: /venue/
-# - name: Registration
-#   link: /registration/
+- name: Registration
+  link: /registration/
 - name: Program
   link: /scientific_program/
 - name: Cultural Events
