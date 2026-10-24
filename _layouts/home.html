@@ -32,13 +32,32 @@ layout: default
         .text h2 { margin-top: 2rem; margin-bottom: 1rem; color: #333; }
         .text h3 { margin-bottom: 1rem; font-weight: normal; color: #555; }
         .text p { margin-bottom: 1rem; line-height: 1.6; }
+        .btn-apply {
+            display: inline-block;
+            margin-top: 16px;
+            padding: 10px 22px;
+            background-color: #ffffff;
+            color: #2c4251 !important;
+            font-weight: bold;
+            font-size: 1rem;
+            border-radius: 4px;
+            text-decoration: none !important;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+            transition: all 0.2s ease;
+        }
+        .btn-apply:hover {
+            background-color: #f0f0f0;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+        }
     </style>
 </head>
 
 <div class="fixed-box">
     <strong>Date:</strong> {{ site.event_dates }}<br>
     <strong>Location:</strong> {{ site.location }}<br>
-    <strong>Registration:</strong> <a href="{{ site.baseurl }}/registration/" style="color: black; text-decoration: underline;">{{ site.registration_status }}</a><br>
+    <strong>Application:</strong> <a href="{{ site.baseurl }}/registration/" style="color: black; text-decoration: underline;">{{ site.application_status | default: "Open" }}</a><br>
+    <strong>Registration:</strong> {{ site.registration_status }}<br>
     <strong style="color: black;">Contacts:</strong> <a href="mailto:{{ site.contact_email }}" style="color: black;">{{ site.contact_name }}</a>, <a href="{{ site.contact_phone_link }}" style="color: black;">{{ site.contact_phone }}</a><br>
     <a href="{{ site.baseurl }}/{{ site.flyer_pdf }}" download="POSTER.pdf" style="color: black;"><strong style="color: black;">ADC school's flyer</strong></a><br>
 </div>
@@ -54,6 +73,9 @@ layout: default
                     </h1>
                     <p class="subtext editable bold-large-text">
                         The second edition of the Alma Dal Co School will take place at Venice International University (VIU) from September 12-17, 2027.
+                    </p>
+                    <p style="margin-top: 18px;">
+                        <a href="{{ site.baseurl }}/registration/" class="btn-apply">&#x1F4E2; Call for Applications</a>
                     </p>
                 {% else %}
                     <h1 class="hero-title" {% if page.title == 'Venue' %}style="text-align: right;"{% endif %}>

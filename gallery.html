@@ -160,7 +160,8 @@ image: /images/home/paper_natEcoEvol2020_highres.jpg
 <div class="fixed-box">
     <strong>Date:</strong> {{ site.event_dates }}<br>
     <strong>Location:</strong> {{ site.location }}<br>
-    <strong>Registration:</strong> <a href="{{ site.baseurl }}/registration/" style="color: black; text-decoration: underline;">{{ site.registration_status }}</a><br>
+    <strong>Application:</strong> <a href="{{ site.baseurl }}/registration/" style="color: black; text-decoration: underline;">{{ site.application_status | default: "Open" }}</a><br>
+    <strong>Registration:</strong> {{ site.registration_status }}<br>
     <strong style="color: black;">Contacts:</strong> <a href="mailto:{{ site.contact_email }}" style="color: black;">{{ site.contact_name }}</a>, <a href="{{ site.contact_phone_link }}" style="color: black;">{{ site.contact_phone }}</a><br>
     <a href="{{ site.baseurl }}/{{ site.flyer_pdf }}" download="POSTER.pdf" style="color: black;"><strong style="color: black;">ADC school's flyer</strong></a><br>
 </div>
